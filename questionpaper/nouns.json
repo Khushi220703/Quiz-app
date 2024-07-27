@@ -1,0 +1,103 @@
+{
+    "questions" : [
+        {
+           "id":"1",
+           "name":"What is a noun?",
+           "A":"A describing word",
+           "B":"An action word",
+           "C":"A person, place, thing, or idea",
+           "D":"A dividing word",
+           "correct":"C"
+        },
+
+        {
+            "id":"2",
+           "name":"Identify the noun in the sentence: 'The sun sets over the horizon.'",
+           "A":"sun",
+           "B":"sets",
+           "C":"horizon",
+           "D":"None of the above",
+           "correct":"A"
+        },
+
+        {
+            "id":"3",
+           "name":"Which is a proper noun?",
+           "A":"town",
+           "B":"river",
+           "C":"London",
+           "D":"cow",
+           "correct":"C"
+        },
+
+        {
+            "id":"4",
+           "name":" In the sentence 'The cheerful children played in the sound,' what is the noun.",
+           "A":"cheerful",
+           "B":"children",
+           "C":" played",
+           "D":"park",
+           "correct":"B"
+        },
+
+        {
+            "id":"5",
+           "name":"Choose the common noun in the following: 'I love to eat fresh fruits.'",
+           "A":"love",
+           "B":"fresh",
+           "C":"eat",
+           "D":"fruits",
+           "correct":"D"  
+        },
+
+        {
+            "id":"6",
+           "name":"What type of noun is 'happiness'?",
+           "A":"Proper noun",
+           "B":"Common noun",
+           "C":"Abstract noun",
+           "D":"Concrete noun",
+           "correct":"C"
+        },
+
+        {
+            "id":"7",
+           "name":"Which option contains a collective noun?",
+           "A":"mountain",
+           "B":"flock",
+           "C":"honesty",
+           "D":"fire",
+           "correct":"B"
+        },
+
+        {
+            "id":"8",
+           "name":" Identify the abstract noun in the sentence: 'The wisdom of the ancient philosophers remains relevant today.'",
+           "A":"ancient",
+           "B":"philosophers",
+           "C":"wisdom",
+           "D":"today",
+           "correct":"C"
+        },
+
+        {
+            "id":"9",
+           "name":"What is the plural form of 'child'?",
+           "A":"childs",
+           "B":"childen",
+           "C":"children",
+           "D":"child's",
+           "correct":"C"
+        },
+
+        {
+            "id":"10",
+           "name":"Which of the following is a common gender noun?",
+           "A":"actor",
+           "B":"actress",
+           "C":"waiter",
+           "D":"waitress",
+           "correct":"A"
+        }
+    ]
+}

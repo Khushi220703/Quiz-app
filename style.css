@@ -1,0 +1,323 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+:root{
+    --blue: #08c8f7;
+    --lightGray: #c6c5c5;
+    --darkBlue:  #4ccdea;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+/*This class name called container is given to all page's parent box to add common style.*/
+.container{
+    border: 2px solid var(--lightGray);
+    width: 34%;
+    border-radius:5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 470px;
+}
+/*styling home page (index.html)*/
+.user-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.user-details > img{
+    height: 90px;
+    width: 90px;
+    margin-top: 20px;
+    
+}
+
+.greeting{
+    color: var(--blue);
+}
+.ask-name{
+    margin-top: -10px;
+    margin-bottom: 25px;
+}
+
+#name{
+    width: 380px;
+    height: 20px;
+    border: 2px solid  var(--lightGray);
+    border-radius: 5px;
+    margin-right: 12px;
+    
+}
+
+button.enter{
+  background-color: var(--blue);  
+  border: none;
+  width: 80px;
+  height: 28px;
+  border-radius: 2px; 
+  font-weight: 700;
+  color: white;
+
+}
+
+.category{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.select{
+    color: var(--blue);
+}
+
+.note{
+    color: rgb(68, 67, 67);
+}
+.questions{
+    width: 200px;
+    height: 36px;
+    border: 1.8px solid rgb(52, 167, 244);
+    margin: 3px;
+    border-radius: 5px;
+    background-color: #d3f3fb;
+    font-weight: 600;
+    color: var(--lightGray);
+}
+
+.types{
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    flex-wrap: wrap;
+   
+}
+
+.questions:hover{
+    background-color: var(--blue);
+}
+
+/*styling quiz page*/
+
+.conatiner-quiz{
+    display: flex;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.time-marks{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.quiz-time{
+    
+    border: 2px solid var(--blue);
+    border-radius: 50%;
+    text-align: center;
+    padding:10px ;
+    font-weight: 800;
+    color: var(--blue);
+}
+
+.score{
+    font-size: large;
+}
+
+.question-id{
+    margin: 20px;
+    border: 2px solid rgb(175, 174, 174);
+    border-radius: 5px;
+    text-align: center;
+    width: 90%;
+    height: 25%;
+    
+
+}
+
+.question-number{
+    border: 2px solid var(--blue);
+    border-radius: 50%;
+    text-align: center;
+    padding:9px ;
+    margin: 4px;
+    font-weight: 800;
+    color: var(--blue);
+    background-color: white;
+    position: relative;
+    bottom: 12px;
+     
+   
+}
+
+.question{
+    word-spacing: 2px;
+    margin: 20px;
+}
+.options{
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.option{
+    width: 230px;
+    height: 35px;
+    border-radius: 250px;
+    margin: 5px;
+    margin-bottom: 12px;
+    border: 2px solid var(--blue);
+    color: var(--blue);
+    background-color: white;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.option:hover{
+    color: #d3f3fb;
+    background-color: var(--darkBlue);
+}
+
+.next{
+    width: 180px;
+    height: 35px;
+    border-radius: 250px;
+    margin: 5px;
+    margin-bottom: 12px;
+    border: 2px solid var(--blue);
+    color: var(--blue);
+    background-color: white;
+    font-weight: 600;
+    font-size: medium;
+   
+}
+
+.next:hover{
+    color: #d3f3fb;
+    background-color: var(--darkBlue);
+}
+
+/*styling result page*/
+#heading{
+    color: var(--blue);
+}
+.container-result{
+    color: rgb(117, 116, 116);
+}
+b{
+    color: rgb(41, 39, 39);
+}
+.button-1{
+    border: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: var(--darkBlue);
+    color: white;
+    font-weight: 600;
+    font-size: small;
+    margin: 0px 10px;
+}
+
+
+/* making the site responsive */
+
+@media only screen and (max-width: 400px){
+    
+    .get-name{
+        width: 90%;
+    }
+    
+    #name{
+        width: 60%;
+    }
+    .note{
+       height: 20px;
+       width: 70%;
+       text-align: center;
+    }
+    .category{
+        width: 90%;
+    }
+    
+   
+    .container{
+        
+        width: 90%;
+    }
+
+    .button{
+        display: flex;
+    
+    }
+
+   
+
+    .questions{
+        width: 50%;
+
+       
+    }
+   
+
+    .option{
+        width: 40%;
+        position: relative;
+        left: 20px;
+    }
+
+    .conatiner-quiz{
+        height: fit-content;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    .container{
+        
+        width: 90%;
+    }
+
+    .button{
+        display: flex;
+    
+    }
+
+    .get-name{
+        width: 90%;
+    }
+    #name{
+        width: 60%;
+    }
+    .note{
+       height: 20px;
+       width: 70%;
+       text-align: center;
+    }
+    .category{
+        width: 90%;
+    }
+
+    .types{
+        width: 90%;
+    }
+    .questions{
+        width: 50%;
+
+       
+    }
+   
+
+    .option{
+        width: 40%;
+        position: relative;
+        left: 20px;
+    }
+
+    .conatiner-quiz{
+        height: fit-content;
+    }
+}

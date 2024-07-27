@@ -1,0 +1,103 @@
+{
+    "questions" : [
+        {
+           "id":"1",
+           "name":"The weather is _______ today.",
+           "A":"Sunny",
+           "B":"Sunnily",
+           "C":"Sunnier",
+           "D":"None of the above",
+           "correct":"A"
+        },
+
+        {
+            "id":"2",
+           "name":"She is ________ girl.",
+           "A":"beautiful",
+           "B":"beautifully",
+           "C":"more beautiful",
+           "D":"None of the above",
+           "correct":"A"
+        },
+
+        {
+            "id":"3",
+           "name":"The movie was _______.",
+           "A":"excitingly",
+           "B":"exciting",
+           "C":"more exciting",
+           "D":"None of the above",
+           "correct":"B"
+        },
+
+        {
+            "id":"4",
+           "name":"He is the ______ person I know.",
+           "A":"tall",
+           "B":"taller",
+           "C":"tallest",
+           "D":"None of the above",
+           "correct":"C"
+        },
+
+        {
+            "id":"5",
+           "name":"They were ______ in the competition.",
+           "A":"successful",
+           "B":"successfully",
+           "C":"more successful",
+           "D":"None of the above",
+           "correct":"A"  
+        },
+
+        {
+            "id":"6",
+           "name":"It was ______ than I expected.",
+           "A":"easy",
+           "B":"easily",
+           "C":"easier",
+           "D":"None of the above",
+           "correct":"C"
+        },
+
+        {
+            "id":"7",
+           "name":"The book is ______.",
+           "A":"interestingly",
+           "B":"intresting",
+           "C":"more intresting",
+           "D":"None of the above",
+           "correct":"B"
+        },
+
+        {
+            "id":"8",
+           "name":"she sings ______ than anyone else in the choir.",
+           "A":"beautifully",
+           "B":"beautiful",
+           "C":"more beautiful",
+           "D":"None of the above",
+           "correct":"A"
+        },
+
+        {
+            "id":"9",
+           "name":"The cake tastes _______.",
+           "A":"deliciously",
+           "B":"delicious",
+           "C":"more delicious",
+           "D":"None of the above",
+           "correct":"B"
+        },
+
+        {
+            "id":"10",
+           "name":"The car is _______ than the one I saw yesterday.",
+           "A":"fast",
+           "B":"faster",
+           "C":"fastest",
+           "D":"None of the above",
+           "correct":"B"
+        }
+    ]
+}

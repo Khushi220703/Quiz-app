@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/testbook.png">
+    <title>Quiz App</title>
+</head>
+<body onload="displayQuestion()">
+    <!--This is quiz part where the quiz question will be displayed with 10 second timer, topic of quiz, score, question count out of 10, score and options -->
+    <div class="container conatiner-quiz">
+        <!--Test name-->
+        <p class="test-name">test-name</p>
+        <div class="time-marks">
+            <!--Time left-->
+            <span class="quiz-time">0</span>
+            <!--Score-->
+            <span class="score">Score: <b>0</b></span>
+        </div>
+        <div class="question-id">
+            <!--Question to be done and question-->
+            <span class="question-number">4/10</span>
+            <p class="q" id="questions">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi 
+                exercitationem minus ullam minima placeat, culpa quo quos pariatur ex facilis amet illo nobis aspernatur laudantium consequatur debitis maxime sint magni?</p>
+        </div>
+        <div class="options">
+            <!--options-->
+            <button class="option option-1" onclick="option('A')">option 1</button>
+            <button class="option option-2" onclick="option('B')">option 2</button>
+            <button class="option option-3" onclick="option('C')">option 3</button>
+            <button class="option option-4" onclick="option('D')">option 4</button>
+        </div>
+        <button class="next" onclick="nextQuestion()">Next Question</button>
+    </div>
+    <script src="script.js">
+       
+    </script>
+</body>
+</html>

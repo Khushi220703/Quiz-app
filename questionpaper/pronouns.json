@@ -1,0 +1,103 @@
+{
+    "questions" : [
+        {
+           "id":"1",
+           "name":"What would the correct pronoun be: 'My name is Sonia. ___ love my family.'?",
+           "A":"He",
+           "B":"I",
+           "C":"She",
+           "D":"We",
+           "correct":"B"
+        },
+
+        {
+            "id":"2",
+           "name":"What would the correct pronoun be: 'I met Sonia yesterday. ___ made me laugh.'?",
+           "A":"It",
+           "B":"Her",
+           "C":"She",
+           "D":"Them",
+           "correct":"C"
+        },
+
+        {
+            "id":"3",
+           "name":"What would the correct pronoun be: 'On the left, you can see Simon. ___ is my brother.'?",
+           "A":"That",
+           "B":"He",
+           "C":"It",
+           "D":"Him",
+           "correct":"B"
+        },
+
+        {
+            "id":"4",
+           "name":"What would the correct pronoun be: 'Birds flap ___ wings.'?",
+           "A":"It",
+           "B":"His",
+           "C":"Their",
+           "D":"Them",
+           "correct":"C"
+        },
+
+        {
+            "id":"5",
+           "name":"What would the correct pronoun be: 'My grandparents live in Mumbai. ___ visit us often.'?",
+           "A":"Them",
+           "B":"They",
+           "C":"Their",
+           "D":"he",
+           "correct":"B"  
+        },
+
+        {
+            "id":"6",
+           "name":"What would the correct pronoun be: 'Look outside. ___ is my car parked over there! The gray one.'?",
+           "A":"This",
+           "B":"That",
+           "C":"Those",
+           "D":"Their",
+           "correct":"B"
+        },
+
+        {
+            "id":"7",
+           "name":"What would the correct pronoun be: 'Why have you not sent the report? ___ was your responsibility.'?",
+           "A":"It",
+           "B":"Those",
+           "C":"Its",
+           "D":"Them",
+           "correct":"A"
+        },
+
+        {
+            "id":"8",
+           "name":" What would the correct pronoun be: '_______ are not my keys.'?",
+           "A":"We",
+           "B":"She",
+           "C":"He",
+           "D":"These",
+           "correct":"D"
+        },
+
+        {
+            "id":"9",
+           "name":"What would the correct pronoun be: '_________ need to work harder to make my dreams come true.'?",
+           "A":"She",
+           "B":"I",
+           "C":"They",
+           "D":"These",
+           "correct":"B"
+        },
+
+        {
+            "id":"10",
+           "name":"What would the correct pronoun be: 'Rohan said that _____ would not come tomorrow because he has soccer practice.'?",
+           "A":"I",
+           "B":"Us",
+           "C":"he",
+           "D":"Him",
+           "correct":"C"
+        }
+    ]
+}

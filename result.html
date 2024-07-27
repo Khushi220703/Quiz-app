@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/testbook.png">
+    <title>Quiz App</title>
+</head>
+<body onload="result()">
+    <!--This is result page have user name with time taken total score, attempted questions, 
+        correct question, total questions, wrong question and marks in percentage.-->
+     <div class="container container-result">
+        <h2 id="heading">Quiz Result</h2>
+
+        <!--name of user-->
+         <p id="name-1"><span id="username">User</span> Your result is:</p>
+
+         <!--Total time taken-->
+         <p id="time">Total time taken: <span id="timeTaken"><b>0</b> seconds</span></p>
+
+         <!--Total question-->
+         <p id="total-question">Total Question: <span id="questions-count"><b>10</b></span></p>
+
+         <!--Attempted question-->
+         <p id="attempted">Attempted: <span id="attempted-count"><b>0</b></span></p>
+
+         <!--Correct question-->
+         <p id="correct">Correct: <span id="correct-count"><b>0</b></span></p>
+
+         <!--Wrong question-->
+         <p id="wrong">Wrong: <span id="wrong-count"><b>0</b></span></p>
+
+         <!--makrs in percentage-->
+         <p id="percentage">Percentage: <span id="percent-count"><b>0</b>%</span></p>
+         
+         <!--The "Start again" button start the quiz on the same topic and "Go to home" button redirect user to home page-->
+         <div class="button">
+          <button id="start-again" class="button-1" onclick="startAgain()">Start Again</button>
+            <button id="home" class="button-1" onclick="goToHome()">Go To Home</button>
+         </div>
+     </div>
+     <script src="script.js"></script>
+</body>
+</html>

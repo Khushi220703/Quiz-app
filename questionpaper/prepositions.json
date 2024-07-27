@@ -1,0 +1,103 @@
+{
+    "questions" : [
+        {
+           "id":"1",
+           "name":"Unlike elders, childern always _______ their small fights.",
+           "A":"made up",
+           "B":"make up",
+           "C":"making up",
+           "D":"makes up",
+           "correct":"B"
+        },
+
+        {
+            "id":"2",
+           "name":"The thieves had ______ the house under the guise of policamen.",
+           "A":"broken into",
+           "B":"broken open",
+           "C":"broke",
+           "D":"None of the above",
+           "correct":"A"
+        },
+
+        {
+            "id":"3",
+           "name":"Go and distibute those bananas your ______ friends.",
+           "A":"amongst",
+           "B":"with",
+           "C":"about",
+           "D":"amidst",
+           "correct":"A"
+        },
+
+        {
+            "id":"4",
+           "name":"Why should they not rebel ______ their persectors.",
+           "A":"on",
+           "B":"againts",
+           "C":"about",
+           "D":"over",
+           "correct":"B"
+        },
+
+        {
+            "id":"5",
+           "name":"The work will be over ______ this evening.",
+           "A":"at",
+           "B":"by",
+           "C":"on",
+           "D":"None of the above",
+           "correct":"B"  
+        },
+
+        {
+            "id":"6",
+           "name":"He hinted ______ some loss of treasures.",
+           "A":"of",
+           "B":"for",
+           "C":"with",
+           "D":"at",
+           "correct":"D"
+        },
+
+        {
+            "id":"7",
+           "name":"Initially, progress may be slow but never give _______ a child who is not reading.",
+           "A":"out of",
+           "B":"up at",
+           "C":"over",
+           "D":"up on",
+           "correct":"D"
+        },
+
+        {
+            "id":"8",
+           "name":"Do you know the reason ______ his absence.",
+           "A":"on",
+           "B":"of",
+           "C":"for",
+           "D":"None of the above",
+           "correct":"C"
+        },
+
+        {
+            "id":"9",
+           "name":"This is in conformity _______ the rules laid down by the corporation.",
+           "A":"for",
+           "B":"againt",
+           "C":"about",
+           "D":"with",
+           "correct":"D"
+        },
+
+        {
+            "id":"10",
+           "name":"She has not read anything ______ monday.",
+           "A":"for",
+           "B":"since",
+           "C":"from",
+           "D":"over",
+           "correct":"B"
+        }
+    ]
+}

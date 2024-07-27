@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/testbook.png">
+    <title>Quiz App</title>
+</head>
+<body>
+
+  <!--This is home page where user can enter his/her name and choose quiz category.
+                    index.html
+                    /        \
+                   /          \
+                  /            \
+                .user-details   .category
+    (where user can add name     (contains buttons to select category)
+    and it has greeting 
+    and note too.)
+   -->
+    <div class="container">
+       <div class="user-details"> <!--User-details-->
+         <img src="./images/testbook.png" alt="testbook logo" class="logo">
+         
+         <div style="display: flex; flex-direction: column; align-items: center;">
+         <h2 class="greeting">Hello user!</h2>
+
+         <p class="ask-name" ><b>Enter your name to continue the Quiz.</b></p>
+        </div>
+        <span id="error"></span>
+         <div class="get-name">
+         
+          <input type="text" name="name" id="name" placeholder="ENTER YOUR NAME" >
+          <button class="enter" onclick="getName()">Enter</button>
+         </div>
+         
+         <p class="note" >You'll have 10 seconds to answer each question.</p>
+         
+       </div> 
+       
+       <div class="category"><!--Category-->
+          <h2 class="select">Select Category</h2>
+          <div class="types">
+          <button class="questions question-1" onclick="category('Nouns')">Nouns</button>
+          <button class="questions question-2" onclick="category('Pronouns')">Pronouns</button>
+          <button class="questions question-1" onclick="category('Prepositions')">Prepositions</button>
+          <button class="questions question-1" onclick="category('Adjectives')">Adjectives</button>
+        </div>
+       </div>
+      
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
